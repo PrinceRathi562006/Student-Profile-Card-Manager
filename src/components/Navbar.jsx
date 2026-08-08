@@ -3,7 +3,7 @@ import { GraduationCap, Users } from "lucide-react";
 const Navbar = ({ totalStudents = 0 }) => {
   return (
     <nav className="bg-[#0d1d34] text-white shadow-[0_8px_24px_rgba(15,23,42,0.18)]">
-      <div className="mx-auto max-w-[1280px] px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3 sm:gap-4">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#2d5ee8] shadow-[0_6px_20px_rgba(45,94,232,0.45)] sm:h-12 sm:w-12">

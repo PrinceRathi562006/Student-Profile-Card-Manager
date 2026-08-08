@@ -7,7 +7,7 @@ function App() {
     <div className="min-h-screen bg-[#edf3f7] text-slate-800">
       <Navbar totalStudents={students.length} />
 
-      <main className="mx-auto max-w-[1280px] px-4 pb-10 pt-6 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-7xl px-4 pb-10 pt-6 sm:px-6 lg:px-8">
         <StudentGrid students={students} />
       </main>
     </div>
